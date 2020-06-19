@@ -6,9 +6,61 @@
     <title>Roshambo</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
+    <style>
+      /* body {
+        padding-top: 0;
+        margin: 1rem 2rem 2rem;
+      }
+      .container {
+        width: auto;
+        max-width: 100opx;
+      }
+      .header {
+        width: 100%;
+        position: fixed;
+        height: 70px;
+        border-bottom: 1px solid rgb(145, 142, 142);
+      } */
+    </style>
   </head>
   <body>
-    <h1 class="hello-world"></h1>
+    <section>
+      <div class="header">
+        <h1><strong>Rock Paper Scissors</strong></h1>
+      </div>
+
+      <div class="start">
+        <button>Start!</button>
+      </div>
+
+      <main class="game">
+        <div class="score">
+          <div class="player1">
+            <h2>Player 1</h2>
+            <p>0</p>
+            <div class="player1options">
+              <button>Rock</button>
+              <button>Paper</button>
+              <button>Scissors</button>
+            </div>
+          </div>
+          <img
+            src="https://www.playworks.org/wisconsin/wp-content/uploads/sites/23/2019/10/RPS-hi-res-graphic.png"
+            height="100"
+            width="250"
+          />
+          <div class="player2">
+            <h2>Player 2</h2>
+            <p>0</p>
+            <div class="player2options">
+              <button>Rock</button>
+              <button>Paper</button>
+              <button>Scissors</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
