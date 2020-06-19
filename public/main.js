@@ -1,15 +1,14 @@
-const game = () => {
-  let firstPlayerScore = 0
-  let secondPlayerScore = 0
+let firstPlayerScore = 0
+let secondPlayerScore = 0
 
-  const start = () => {
+  const start = () => function(start) {
     const startButton = document.querySelector('.start button')
 
-    // startButton.addEventListener('click', function() => {
+    startButton.addEventListener('click', function() => {
 
 
-    // })
-  // }
+    })
+  }
 
 
 const playGame = () => {
@@ -36,6 +35,11 @@ const playGame = () => {
    
     })
   })
+}
+
+function handleClick(event) {
+  const target = event.target;
+  return;
 }
 
 const compareHands = (player1Choice, player2Choice) =>{
@@ -87,7 +91,7 @@ return;
       return;
     }
   }
-}
+
 
 
 document.addEventListener('DOMContentLoaded', main) 
