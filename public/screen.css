@@ -61,11 +61,13 @@ section {
   align-items: center;
 }
 
-.score p, .score h2 {
+.score p,
+.score h2 {
   text-align: center;
 }
 
-.player1options button, .player2options button {
+.player1options button,
+.player2options button {
   border: 0.05px solid;
   border-radius: 5px;
   font-size: 16px;
